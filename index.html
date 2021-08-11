@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <!--Menu superior-->
+    <header>
+        <marca class="marca"></marca>
+        <a href="#" class= "logo">Portafolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div> 
+        <ul class="menu">
+           <li><a href="#inicio"onclick="toggleMenu();">Inico</a></li>
+           <li><a href="#sobremi"onclick="toggleMenu();">Sobre mi</a></li>
+           <li><a href="#trabajo"onclick="toggleMenu();">Trabajo</a></li>
+           <li><a href="#testimonios"onclick="toggleMenu();">Testimonio</a></li>
+           <li><a href="#contacto"onclick="toggleMenu();">Contacto</a></li>
+        </ul>
+    </header>
+    <!--Seccion principal-->
+    <section class="banner" id="inicio">
+        <div class="textBx">
+            <h2> Hola,soy<br><span>Laura Bogota</span></h2>
+            <h3> Soy estudiante de diseño web </h3>
+            <a href="#sobremi" class="btn">Leer mas</a>             
+        </div>
+    </section>
+    <!--Seccion Sobre mi-->
+    <section class="sobremi" id="sobremi">
+        <div class="heading">
+            <h2>Sobre mi</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx ancho50">
+                <h3>Soy estudiante de diseño web.</h3>
+                <p><br> tengo un Técnico en logística empresarial con experiencias en varias empresas en el area logistico <br><br>Desde hace unos meses soy estudiante de diseño web, por parte de programate<br><br>Con ellos e logrado obtener competencias en html, css y java script.</p>
+            </div>
+            <div class="ancho50">
+              <img src="lau1.jpeg" class="img">  
+            </div>
+        </div>
+    </section>
+    <!--Seccion Proyectos-->
+    <section class="Trabajo" id="trabajo">
+        <div class="heading black">
+            <h2>Trabajo</h2>
+        </div>
+        <div class="content">
+            <div class="TrabajoBx">
+                <img src="Texto.png" alt="img">   
+                <h2>Retos</h2> 
+                <p>Pagina donde podemos ver nuestro texto con una secuencia.</p>
+            </div>
+            <div class="TrabajoBx">
+                <img src="Adivinar.png" alt="img">   
+                <h2> adivinar </h2> 
+                <p> Pagina web de juegos, donde podremos adivinar que animal nos gusta. </p>
+            </div>
+            <div class="TrabajoBx">
+                <img src="bibliografia.png" alt="img">   
+                <h2> bibliografia</h2> 
+                <p> Pagina web de biografias, columnas de opinion, y recomendaciones artisiticas. </p>
+            </div>
+        </div>  
+    </section>
+    <!--Seccion Testimonios-->
+    <section class="Testimonios" id="testimonios">
+        <div class="heading">
+            <h2> Testimonios</h2>
+        </div>
+        <div class="content">
+            <div  class="TestimoniosBx">
+                <p>"Empecé a trabajar con Laura Bogota hace aproximadamente 1 años, poco a poco nuestro sitio web y las redes sociales han ido creciendo. Hoy en día más de la mitad de los pacientes que yo veo me han encontrado por el sitio web."</p>
+                <h3>Valentina Garcia<br> <span>Bogota, Colombia</span></h3>
+            </div>
+            <div  class="TestimoniosBx">
+                <p>"Una vez más puse mi confianza en Laura Bogota para mejorar y lograr mejor posicionamiento de mi sitio web. Las expectativas del sitio para dispositivos móviles se cumplieron en su totalidad."</p>
+                <h3><br>Carmen Diaz<br> <span>Quibdó, Choco</span> </h3>
+            </div>
+        </div>
+    </section>
+    <!--Seccion Contacto-->
+    <section class="contact" id="contacto">
+        <div class="heading black">
+            <h2>Contactanos</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Datos Contacto</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="text">
+                            <p> calle siempre viva<br>123</p>
+                            <h3>Direccion</h3>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="text">
+                            <p>301-239-1203</p>
+                            <h3>Telefono</h3>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="text">
+                            <p>Laubogota.project@gmail.com</p>
+                            <h3>Email</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+              <form>
+                <h3>Tu  Mensaje</h3>
+                <input type="text" name="" placeholder="Nombre Completo">
+                <input type="email" name="" placeholder="Email">
+                <textarea placeholder="Tu Mensaje"></textarea>
+                <input type="submit" value="Enviar">
+              </form>
+            </div>
+        </div>
+    </section>  
+
+    <div class= "copyright">
+        <p>Copyright@ 2021 Laura Bogota</p>
+    </div>
+    
+</body>
+
+</html>

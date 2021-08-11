@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Mr+Dafoe&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+    scroll-behavior: smooth;
+}
+
+section
+{
+    padding: 100px;
+}
+.banner
+{
+  position: relative;
+  min-height: 100vh;
+  background: url(lau2.jpeg);
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner h2
+{
+   font-size: 3em;
+   color:#203044; 
+   font-weight: 500;
+   line-height: 1.5em;
+}
+.banner h2 span
+{
+    font-size: 1.5em;
+    letter-spacing: 4px;
+    font-weight: 900;
+}
+.banner h3
+{
+    font-size: 1.5em;
+    color:#000000; 
+    font-weight: 600;
+}
+.btn
+{
+    position: relative;
+    background: #F1C0D2;
+    display: inline-block;
+    text-shadow: 1px 1px 3px #203044;
+    color:#203044;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    transition: 0.5s;
+}
+header.sticky
+{
+    background:#FAFAFA;
+    padding: 10px  100px;
+}
+header .marca
+{
+    height: 50px;
+    width: 50px;
+    background: url(marca.jpg);
+}
+header.sticky .marca
+{
+    height: 50px;
+    width: 50px;
+    background: url(marca2.jpg);
+}
+header .logo
+{
+    font-family: 'Mr Dafoe', cursive;
+    color: #000000;
+    font-size: 45px;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 4px;   
+}
+header.sticky .logo
+{
+    color: rgb(2, 2, 2);
+}
+header ul
+{
+    position: relative;
+    display: flex;
+}
+
+header ul li 
+{
+    position: relative;
+    list-style: none;
+}
+
+header.sticky ul li a
+{
+   color: rgb(0, 0, 0); 
+}
+
+
+header ul li a
+{
+    position: relative;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 0 30px;
+    color: #000000;
+    text-shadow: 1px 1px 3px #ffffff;
+    text-decoration: none;    
+}
+
+/*Seccion de Sobre Mi*/
+.sobremi
+{
+    background:#2d2f44 ;
+}
+.heading
+{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px; 
+    color: #C5F2DA ;
+    text-shadow: 1px 1px 5px #C5F2DA;
+}
+.heading h2
+{
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+.content
+{
+    display: flex;
+    justify-content: space-betweens;  
+}
+.contentBx
+{
+    padding-right: 30px;
+}
+.contentBx h3
+{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.ancho50
+{
+    min-width: 50%;
+    color:#ffffff;
+}
+.img
+{
+    max-width: 100%;
+    box-shadow: -12px 12px  #C5F2DA;
+}
+
+/*Seccion de Trabajo*/
+.Trabajo
+{
+    background: #BEC4F6;
+}
+.heading.black
+{
+    color:#F1C0D2;
+    text-shadow: 1px 2px 2px rgb(32, 48, 68, 0.5);
+}
+.Trabajo .content
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.Trabajo .content .TrabajoBx
+{
+    padding:  30px 40px;
+    background: #EBDDDD;
+    color:#0e0d0d ;
+    max-width: 350px;
+    margin:  20px;
+    text-align: center;
+    box-shadow: 12px 12px  #F1C0D2;
+}
+.Trabajo .content .TrabajoBx img
+{
+    height: 145px;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.Trabajo .content .TrabajoBx h2
+{
+    font-size: 22px;
+    font-weight:600;
+}
+
+/*Seccion de Testimonios*/
+.Testimonios 
+{
+    background:#2d2f44 ;
+}
+.Testimonios .content
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Testimonios .content .TestimoniosBx
+{
+    max-width: calc(50% - 40px);
+    padding: 60px 40px;
+    margin: 20px;
+    background: #BEC4F6;
+    box-shadow: -12px 12px  #C5F2DA;
+}
+.Testimonios .content .TestimoniosBx p
+{
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300px;
+}
+.Testimonios .content .TestimoniosBx h3
+{
+    margin-top: 40px;
+    text-align: end;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1em;
+}
+.Testimonios .content .TestimoniosBx h3 span
+{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/*Seccion de Contacto*/
+.contact
+{
+    background: #BEC4F6;
+}
+.formBx
+{
+    min-width: 60%;
+}
+.formBx form
+{
+    display: flex;
+    flex-direction: column;
+}
+.formBx form h3,
+.contactInfoBx
+{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.formBx form input,
+.formBx form textarea
+{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background: #F1C0D2;
+    color: #070707;
+    resize: none;
+    box-shadow: 10px 10px  #EBDDDD;
+}
+.formBx form textarea{
+    min-height: 200px;
+}
+.formBx form input::placeholder,
+.formBx form textarea::placeholder
+{
+    color: #000000;
+}
+.formBx form input[type="submit"]
+{
+    max-width: 100px;
+    background: #F1C0D2;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.contactInfo
+{
+    min-width: 40%;
+}
+.contactInfoBx
+{
+    position: relative;
+}
+.contactInfoBx .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    margin-top: 20px;
+}
+
+.contactInfoBx .box .text 
+{
+    display: flex;
+    margin: left 20px; 
+    font-size: 16px;
+    color:#000000 ;
+    flex-direction: column-reverse;
+    font-weight: 300;
+}
+.contactInfoBx .box h3
+{
+    font-weight: 500;
+    color:#000000 ;
+    margin-bottom: 0;
+    
+}
+.copyright
+{
+    background: #203044;
+    color: #000000;
+    text-align: center;
+    padding: 15px;
+}
+
+/* responsive*/
+/*@media (max-width:991px)
+{
+    header,
+    header.sticky
+    {
+        padding: 40px 40px;
+        z-index: 1000;
+    }
+    .menu
+    {
+        position: fixed;
+        top: 100px;
+        left: -100%;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+        transition: 0.5s;
+        z-index: 999;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    .menu.active
+    {
+       left: 0; 
+    }
+
+    header ul li a 
+    {
+        color:#000000;
+    }
+    .toggle
+    {
+      width: 40px;
+      height: 40px;
+      background: url(menu.png);
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-size: 30px;
+      cursor: pointer;  
+    }
+    .toggle.active
+    {
+      background: url(close.png);
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-size: 25px;
+      cursor: pointer;  
+    }
+    header.sticky .toggle
+    {
+        filter: invert(1);    
+    }
+    section
+    {
+        padding: 100px 50px;
+    }
+    .banner
+    {
+        padding: 150px 50px 100px;
+    }
+    .banner h2 
+    {
+       font-size: 1.5em; 
+    }
+    .banner h3 
+    {
+       font-size: 1em; 
+    }
+    .btn
+    {
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .heading h2 
+    {
+        font-size: 24px;
+    }
+    .content h3 
+    {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .content
+    {
+        flex-direction:column ;
+    }
+    .w50
+    { 
+        margin-bottom: 20px;
+    }
+    .services .content .servicesBx
+    {
+        margin: 10px;
+    }
+    .work .content .workBx
+    {
+        width:100% ;
+        padding: 10px;
+    }
+    .testimonial .content .TestimoniosBx
+    {
+        max-width: calc (100% - 20px);
+        padding: 40px 20px;
+        margin: 10px; 
+        background: #000000;
+    }
+    .contactInfo
+    { 
+        margin: 20px 0;
+    }
+} */
+@media (max-width: 991px)
+{
+    header
+    {
+        padding: 10px 50px;
+        z-index: 1000;
+    }
+    header.sticky
+    {
+        background-color: #ffffff;
+        padding: 10px 50px;
+        z-index: 1000;
+    }
+    .menu
+    {
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background: #ffffff;
+        transition: 0.5s;
+        z-index: 999;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .menu.active{
+        left: 0;
+    }
+    .toggle
+    {
+        filter: invert(1); 
+        width: 40px;
+        height: 40px;
+        background: url(menu.png);
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: 30px;
+        cursor: pointer;  
+    }
+    .toggle.active
+    {
+        filter: invert(1); 
+        background: url(cerrar.png);
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: 25px;
+        cursor: pointer;  
+    }
+    header ul li a 
+    {
+        color:#000000;
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    header.sticky .toggle
+    {
+        filter: invert(1);    
+    }
+    section
+    {
+        padding: 100px 50px;
+    }
+    .banner
+    {
+        padding: 150px 50px 100px;
+    }
+    .banner h2 
+    {
+       font-size: 1.5em; 
+    }
+    .banner h3 
+    {
+       font-size: 1em; 
+    }
+    .btn
+    {
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .heading h2 
+    {
+        font-size: 24px;
+    }
+    .contentBx h3
+    {
+        font-size: 20px;
+    }
+    .content
+    {
+        flex-direction: column;
+    }
+    .ancho50
+    { 
+        margin-bottom: 20px;
+    }
+    .services .content .servicesBx
+    {
+        margin: 10px;
+    }
+    .Trabajo .content .workBx
+    {
+        width:100% ;
+        padding: 10px;
+    }
+    .Testimonios .content .TestimoniosBx
+    {
+        max-width: 100%;
+        padding: 40px 20px;
+        margin: 10px; 
+    }
+    .Testimonios .content .TestimoniosBx h3
+    {
+        margin-top: 20px;
+    }
+    .contactInfo
+    { 
+        margin: 20px 0;
+    }
+    .contactInfoBx .box {
+        margin-top: -14px;
+    }
+
+}
+@media(max-width: 600px)
+{
+    header,
+    header.sticky
+    {
+        padding:20px 20px;  
+    }
+    .banner
+    {
+        padding: 150px 20px 100px;
+    }
+    section 
+    {
+        padding: 100px 20px;
+    }
+}
