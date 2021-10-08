@@ -215,7 +215,13 @@ header ul li a
     font-size: 22px;
     font-weight:600;
 }
-
+.Trabajo .content .TrabajoBx a{
+    color: black;
+    text-decoration: none;
+}
+.Trabajo .content .TrabajoBx a:hover{
+    color: black;
+}
 /*Seccion de Testimonios*/
 .Testimonios 
 {

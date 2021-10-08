@@ -10,3 +10,7 @@ function toggleMenu(){
     menu.classList.toggle('active');
 }
 // laura//
+document.addEventListener("submit",(e)=>{
+    //e.preventDefault();
+    alert("Enviando formulario");
+});
