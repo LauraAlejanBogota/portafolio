@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
 
 *
@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Sofadi One', cursive;
+    font-family: 'Lato', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -164,8 +164,12 @@ header ul li a
 }
 .contentBx h3
 {
-    font-size: 30px;
+    font-size: 33px;
     margin-bottom: 10px;
+}
+.contentBx p
+{
+    font-size: 25px;
 }
 .ancho50
 {
@@ -245,7 +249,7 @@ header ul li a
 .Testimonios .content .TestimoniosBx p
 {
     font-style: italic;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 300px;
 }
 .Testimonios .content .TestimoniosBx h3
@@ -253,13 +257,13 @@ header ul li a
     margin-top: 40px;
     text-align: end;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1em;
 }
 .Testimonios .content .TestimoniosBx h3 span
 {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /*Seccion de Contacto*/
@@ -289,7 +293,7 @@ header ul li a
 {
     margin-bottom: 20px;
     padding: 15px;
-    font-size: 15px;
+    font-size: 18px;
     border: none;
     outline: none;
     background: #F1C0D2;
@@ -320,6 +324,11 @@ header ul li a
 .contactInfo{
     min-width: 40%;
 }
+
+.contactInfo h3{
+    font-size: 28px;
+}
+
 .contactInfoBx
 {
     position: relative;
@@ -336,14 +345,14 @@ header ul li a
 {
     display: flex;
     margin: left 20px; 
-    font-size: 16px;
+    font-size: 20px;
     color:#000000 ;
     flex-direction: column-reverse;
-    font-weight: 300;
+    font-weight: 600;
 }
 .contactInfoBx .box h3
 {
-    font-weight: 500;
+    font-size: 28px;
     color:#000000 ;
     margin-bottom: 0;
     
